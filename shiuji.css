@@ -1,0 +1,457 @@
+* {
+    margin: 0;
+    border: 0;
+    padding: 0;
+}
+
+a {
+    outline: none;
+    -moz-outline-style: none;
+    text-decoration: none;
+    color: #D2AF85;
+}
+
+li {
+    list-style-type: none;
+}
+
+.clearfix:after {
+    content: "\200B";
+    display: block;
+    height: 0;
+    clear: both;
+}
+
+.clearfix {
+    *zoom: 1;
+}
+
+@media (min-width: 320px) {
+    body {
+        min-width: 320px;
+        margin: 0 auto;
+    }
+}
+
+body {
+    max-width: 640px;
+    margin: 0 auto;
+    background-color:rgba(31, 31, 31, 1);
+    color: #D2AF85;
+    font-family: '寰蒋闆呴粦 Light', '寰蒋闆呴粦';
+    background: url("/static/images/index/u0.png");
+    background-size: cover;
+    width:100%;
+    height:100%;
+}
+
+#u2_img{
+    width: 2.51rem;
+    text-align: center;
+}
+#u3_img{
+    width: 0.35rem;
+    height: 0.38rem;
+    vertical-align:middle;
+}
+.dv_header{
+    font-size: 0.24rem;
+    color: #D2AF85;
+    display: block;
+}
+
+.mian {
+    margin: 20px;
+    margin-bottom: 100px;
+}
+
+.ye-bottom {
+    padding: 0.5rem;
+    position: relative;
+    padding-bottom: 0.25rem;
+    background: #fff;
+}
+
+.yz-rs {
+    position: relative;
+    height: 0.5rem;
+}
+
+.yz-rs img {
+    width: 0.4rem;
+    height: 0.4rem;
+    position: absolute;
+    top: 0;
+    margin-top: 0.05rem;
+}
+
+.yz-rs .yz-rs-1 {
+    height: 0.5rem;
+    line-height: 0.5rem;
+    position: absolute;
+    top: 0;
+    left: 0.6rem;
+    font-size: 0.25rem;
+    color: #999;
+}
+
+.yz-rs-2 {
+    color: #000;
+}
+
+.yz-rs:nth-child(1) {
+    margin-bottom: 0.3rem;
+}
+
+.zxl {
+    position: absolute;
+    top: 0.5rem;
+    right: 0.5rem;
+    height: 1.3rem;
+}
+
+.zxl-1 {
+    font-size: 0.25rem;
+    color: #999;
+}
+
+.zxl > span {
+    color: #999;
+    display: block;
+    position: absolute;
+    bottom: 0;
+    font-size: 0.25rem;
+}
+
+.zxl-1 .zxl-2 {
+    font-size: 0.8rem;
+    color: #1296DB;
+}
+
+/*.ye-2 {*/
+/*    padding: 0.5rem 0.1rem;*/
+/*    height: 10rem;*/
+
+/*    background: url("../images/bg_home.png") no-repeat;*/
+/*    background-size: cover;*/
+/*}*/
+
+.ye-2 ul {
+    width: 100%;
+    overflow: hidden;
+}
+
+.you-xi {
+
+    /*float: left;*/
+    width: 1.9rem;
+    height: 2.46rem;
+    margin-bottom: 0.3rem;
+    position: relative;
+    border-radius: 5px;
+    background: #393939;
+    margin-right: 0.16rem;
+}
+
+.bjsc {
+    background: url(../images/TIM_11.png) no-repeat;
+    background-size: 100% 100%;
+}
+
+.xyft {
+    background: url(../images/TIM_10.png) no-repeat;
+    background-size: 100% 100%;
+}
+
+.pc28 {
+    background: url(../images/TIM_06.png) no-repeat;
+    background-size: 100% 100%;
+}
+
+.jld28 {
+    background: url(../images/ic_canada28.png) no-repeat;
+    background-size: 100% 100%;
+}
+
+.you-xi > a {
+    display: block;
+    width: 100%;
+    height: 100%;
+
+}
+
+.you-xi .jr-yx {
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+}
+
+.tanchukuang {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.4);
+    display: none;
+}
+
+.xiansuy {
+    position: absolute;
+    top: 40%;
+    margin-left: 10%;
+    background: #FFF;
+    text-align: center;
+    width: 70%;
+    padding: 5%;
+}
+
+.xiansuy span {
+    display: block;
+    font-size: 0.5rem;
+    text-align: center;
+    margin-bottom: 0.5rem;
+}
+
+.xiansuy a {
+    height: 50%;
+    font-size: 0.4rem;
+    background: rgb(255, 255, 255);
+    display: block;
+    width: 39.5%;
+    float: left;
+    padding: 0 5%;
+    color: #000;
+
+}
+
+.xiansuy a.one {
+    border-right: 1px solid #999;
+}
+
+
+.xiansuy a div img {
+    width: 40%;
+}
+
+.xiansuy a div span {
+    margin: 0;
+    font-size: 0.25rem;
+}
+
+/*鏀圭増涔愬僵鍥介檯绉诲姩绔�  */
+.head-show {
+    width: 100%;
+    height: 2.8rem;
+    /*      background: url("../images/home_page_banner.png") no-repeat;
+    background-size: 100% 100%; */
+}
+
+.swiper-wrapper img {
+    display: block;
+    width: 100%;
+    height: 2.8rem;
+}
+
+.bg-black {
+    padding-top: 0.1rem;
+    background: #353535;
+}
+
+
+
+
+.sp_username{
+
+}
+
+
+
+.nav-com {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(21, 19, 20, 1);
+
+}
+
+.nav-com li {
+    float: left;
+    width: 20%;
+}
+
+.nav-com a {
+    display: block;
+    width: 100%;
+    height: 0.36rem;
+    padding-top: 0.54rem;
+    color: #fbfbfc;
+    font-weight: 250;
+    font-size: 0.14rem;
+    text-align: center;
+}
+
+.nav-com .deault1 {
+    background: url("/tmp/images/index/regen/u37.png") center 0.08rem no-repeat;
+    background-size: 0.4rem 0.4rem;
+}
+
+.nav-com li:nth-child(1) .active {
+    background: url("/tmp/images/index/regen/u39.png") center 0.08rem no-repeat;
+    color: #F6D899;
+    background-size: 0.4rem 0.4rem;
+}
+
+.nav-com .deault2 {
+    background: url("/tmp/images/index/regen/u31.png") center 0.08rem no-repeat;
+    background-size: 0.4rem 0.4rem;
+}
+
+.nav-com li:nth-child(2) .active {
+    background: url("/tmp/images/index/regen/u33.png") center 0.08rem no-repeat;
+    background-size: 0.4rem 0.4rem;
+    color: #F6D899;
+}
+
+
+.nav-com .deault3 {
+    background: url("/tmp/images/index/u82.png") center 0.08rem no-repeat;
+    background-size: 0.4rem 0.4rem;
+}
+
+.nav-com li:nth-child(3) .active {
+    background: url("/tmp/images/index/u84.png") center 0.08rem no-repeat;
+    background-size: 0.4rem 0.4rem;
+    color: #F6D899;
+}
+
+.nav-com .deault4 {
+    background: url("/tmp/images/index/regen/u46.png") center 0.08rem no-repeat;
+    background-size: 0.4rem 0.4rem;
+
+}
+
+.nav-com li:nth-child(4) .active {
+    background: url("/tmp/images/index/regen/u48.png") center 0.08rem no-repeat;
+    background-size: 0.4rem 0.4rem;
+    color: #F6D899;
+}
+
+.nav-com .deault5 {
+    background: url("/tmp/images/index/regen/u51.png") center 0.08rem no-repeat;
+    background-size: 0.4rem 0.4rem;
+}
+
+.nav-com li:nth-child(5) .active {
+    background: url("/tmp/images/index/regen/u53.png") center 0.08rem no-repeat;
+    background-size: 0.4rem 0.4rem;
+    color: #F6D899;
+}
+
+
+/*
+   .ye-quan {
+       width: 100%;
+       margin: 0 auto;
+       height: auto;
+   }
+   .ye-bottom{
+       border-bottom: 1px solid #999;
+       padding-bottom: 0.5rem;
+   }
+   .yz-rs {
+       width: 70%;
+       height: auto;
+       margin-top: 0.7rem;
+       padding-left: 0.7rem;
+       padding-right: 0.7rem;
+   }
+   .yz-rs img {
+       width: 50px;
+       height: 50px;
+   }
+   .yz-rs-1 {
+   margin-top: -0.95rem;
+   margin-left: 1rem;
+   font-size: 0.5rem;
+   color: #666;
+   }
+   .yz-rs-2 {
+       margin-left: 10px;
+       color: #000;
+   }
+   .zxl {
+       width: 150px;
+       height: 150px;
+       float: right;
+       margin-right: 40px;
+       margin-top: -150px;
+   }
+   .zxl-1 {
+       width: 100%;
+       height: 100px;
+       color: #f51f4c;
+       font-size: 25px;
+   }
+   .zxl-2 {
+       color: #1296DB;
+       font-size: 80px;
+   }
+   .zxl>span {
+       font-size: 25px;
+       color: #666;
+   }
+   .ye-2 {
+       margin-top: 30px;
+   }
+   .you-xi {
+       width: 400px;
+       height: 400px;
+       border-radius: 30px;
+       background-size: 100% 100%;
+       float: left;
+       margin-left: 50px;
+       margin-top: 50px;
+   }
+   .bjsc {
+       background: url(../img/TIM_11.png)no-repeat;
+
+   }
+   .xyft {
+       background: url(../img/TIM_10.png)no-repeat;
+   }
+   .pc28 {
+       background: url(../img/TIM_06.png)no-repeat;
+   }
+   .jld28 {
+       background: url(../img/TIM_08.png)no-repeat;
+   }
+   .you-xi a{
+       display: block;
+       text-decoration: none;
+       color: #000;
+   }
+
+   .yx-ming {
+       text-align: center;
+       margin-top: 150px;
+       color: white;
+       font-size: 50px;
+   }
+   .yx-ming span {
+       color: #DAA23E;
+   }
+   .jr-yx {
+       border: 1px solid #999;
+       border-radius: 25px;
+       width: 250px;
+       height: 60px;
+       margin: 300px auto;
+       text-align: center;
+       line-height: 60px;
+       font-size: 34px;
+       font-weight: bold;
+       background: rgba(237, 237, 237, 0.63);
+   }
+
+   */
